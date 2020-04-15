@@ -1,0 +1,246 @@
+Data work.TSTEDTSUMOUT(drop=datel);
+retain dates;
+set work.tecondepdthsum;
+Dates = input(datel, MMDDYY12.);
+weeks = week(dates);
+run;
+/* -------------------------------------------------------------------
+   Sort data set WORK.TSTATESUM
+   ------------------------------------------------------------------- */
+PROC SORT
+	DATA=WORK.TSTEDTSUMOUT(KEEP=dates weeks Cases1 EconDepTypoCode2015)
+	OUT=WORK.SORTEcondepdthSorted
+	;
+	BY  dates;
+RUN;
+%_sas_pushchartsize(1280,760);
+SYMBOL1
+	INTERPOL=JOIN
+	HEIGHT=10pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL1
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL2
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL3
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL4
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL5
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL6
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL7
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL8
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL9
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL10
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL11
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL12
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL13
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL14
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL15
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL16
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL17
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL18
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL19
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+SYMBOL20
+	INTERPOL=JOIN
+	HEIGHT=8pt
+	VALUE=NONE
+	LINE=1
+	WIDTH=2
+
+	CV = _STYLE_
+;
+Legend1
+	FRAME
+	;
+Axis1
+	STYLE=1
+	WIDTH=1
+	ORDER=(0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000)	
+	MINOR=NONE
+	LABEL=( HEIGHT=8pt   "Incidence")
+	VALUE=(HEIGHT=8pt )
+
+
+;
+Axis2
+	STYLE=1
+	WIDTH=1
+	MINOR=NONE
+	LABEL=( HEIGHT=8pt)
+	VALUE=(HEIGHT=8pt )
+
+
+;
+TITLE;
+TITLE1 "Incidence Plot";
+FOOTNOTE;
+PROC GPLOT DATA = WORK.SORTEcondepdthSorted
+ NOCACHE ;
+PLOT Cases1 * dates 	 =EconDepTypoCode2015
+ /
+ 	VAXIS=AXIS1
+
+	HAXIS=AXIS2
+
+FRAME	LEGEND=LEGEND1
+;
+	format EconDepTypoCode2015 $ecdepfmt. dates mmddyy8.;
+
+/* -------------------------------------------------------------------
+   End of task code
+   ------------------------------------------------------------------- */
+RUN; QUIT;
