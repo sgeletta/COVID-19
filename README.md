@@ -37,7 +37,7 @@ https://systems.jhu.edu/
     and https://fdoh.maps.arcgis.com/apps/opsdashboard/index.html#/8d0de33f260d444c852a615dc7837c86
   - Colorado: https://covid19.colorado.gov/covid-19-data
   - Virginia: https://www.vdh.virginia.gov/coronavirus/
-  - Northern Mariana Islands: https://chcc.gov.mp/coronavirusinformation.php#gsc.tab=0
+  - Northern Mariana Islands CNMI Department of Public Health: https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5
   - Missouri Department of Health: https://www.arcgis.com/apps/MapSeries/index.html?appid=8e01a5d8d8bd4b4f85add006f9e14a9d
   - St. Louis City Department of Health: https://www.stlouis-mo.gov/covid-19/data/#totalsByDate
   - St. Louis County: https://stlcorona.com/resources/covid-19-statistics1/
@@ -60,6 +60,8 @@ https://systems.jhu.edu/
   - South Carolina Department of Health and Environmental Control: https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/sc-testing-data-projections-covid-19
   - Nevada Department of Health and Human Services: https://nvhealthresponse.nv.gov/
   - New Jersey Department of Health: https://covid19.nj.gov/
+  - Delaware Emergency Management Agency: https://coronavirus.delaware.gov/
+  - Utah Department of Health: https://coronavirus-dashboard.utah.gov/#overview
 
 - Non-US data sources at the country/region (Admin0) or state/province (Admin1) level:
   - National Health Commission of the People’s Republic of China (NHC):
