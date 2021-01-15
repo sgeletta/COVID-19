@@ -165,6 +165,13 @@ Date: Location | Change | Files affected | Reason/Other notes | Source
 * December 15: French Overseas Territories | Correction of cases and deaths from December 6 to December 14 for Guadeloupe, French Guiana, Martinique, Mayotte, and Reunion in accordance to WHO | All time files and daily reports | [WHO](https://covid19.who.int/WHO-COVID-19-global-table-data.csv)
 * December 17: Washington, US | Correction of deaths from April 1 to December 15 and inclusion of probable cases from June 1 to December 15 for Washington in accordance to Washington Department of Health | All time files and daily reports | [Washington Department of Health](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard)
 * December 29: New York, US | Correction of probable cases from August 31 to December 28 for New York City in accordance to NYC Health | All time files and daily reports | [NYC Health](https://www1.nyc.gov/site/doh/covid/covid-19-data-totals.page)
+* January 7, 2021: Texas, US | Correction of probable cases from April 1, 2020 to January 5, 2021 for Tarrant County in accordance to Tarrant County Public Health | All time files and daily reports | [Tarrant County Public Health](https://www.tarrantcounty.com/en/public-health/disease-control---prevention/COVID-19.html)
+* January 10, 2021: New Jersey, US | Correction of probable cases from May 1, 2020 to January 9, 2021 for all counties in accordance with NJ Health COVID-19 Dashboard | All time files and daily reports | [NJ Department of Health](https://www.nj.gov/health/cd/topics/covid2019_dashboard.shtml)
+* January 14, 2021: Yemen | Overwriting of time series using data from Yemeni Ministry of Health | [Source](https://twitter.com/YSNECCOVID19) | **Note**: Source may be blocked in the United States
+* January 15, 2021: Kansas, US | Adjustment of time series to use data from Kansas Department of Health and Environment | All time files and daily reports | [Kansas DHE](https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas)
+* January 15, 2021: Kansas, US | Adjustment of time series to use data from Douglas County Coronavirus Response and Recovery Hub | All time files and daily reports | [Douglas Dashboard](https://coronavirus-response-dgco.hub.arcgis.com/)
+* January 15, 2021: Kansas, US | Adjustment of time series to use data from Finney County COVID-19 Resource Hub | All time files and daily reports | [Finney Dashboard](https://finney-county-coronavirus-response-finneycountygis.hub.arcgis.com/)
+* January 15, 2021: Kansas, US | Adjustment of time series to use data from Riley County Corona Virus Response | All time files and daily reports | [Riley Dashboard](https://coronavirus-response-rcitgis.hub.arcgis.com/)
 
 
 
@@ -237,6 +244,7 @@ Date: Location | Change | Reason/Other notes | Source
 * December 16: Washington, US | Inclusion of 7,671 probable cases from June to present | [Source](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) | We are working a back distribution
 * December 16: California, US | California dashboard included 15,337 historical cases in their December 16 update | We pull from several sources including the California State Daashboard so it is unclear how these historical cases are distributed within our data | [Source](https://covid19.ca.gov/state-dashboard/)
 * December 17: Hidalgo, Texas, US | Reduction in cases due to double counting probable and confirmed cases | [Source 1](https://www.hidalgocounty.us/DocumentCenter/View/43316/12162020---Eight-deaths-related-to-COVID-19-reported-in-Hidalgo-County-along-with-377-positive-cases), [Source 2](https://www.hidalgocounty.us/DocumentCenter/View/43374/12172020---Four-deaths-related-to-COVID-19-reported-in-Hidalgo-County-along-with-522-positive-cases)
+* January 5: Alabama, US | Backlog of cases from the holiday period resulted in daily record of cases | Quote from source: "Case counts reported on today's update are high. Today's increase represents a delay in testing and reporting to the Alabama Department of Public Health (ADPH) due to the holiday weekends." | [Source](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7)
 
 ## Large-scale back distributions
 This section will serve to notify developers when we are able to successfully backdistribute any of the large instances of retrospective reporting.

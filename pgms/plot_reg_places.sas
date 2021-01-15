@@ -228,7 +228,7 @@ Axis2
 
 ;
 TITLE;
-TITLE1 "Daily Incidence Rates by Region and CBSA Status";
+TITLE1 "Daily Cumulative Incidence Rates by Region and CBSA Status";
 FOOTNOTE;
 PROC GPLOT DATA = WORK.CBSARegIncidenceRates
  NOCACHE ;

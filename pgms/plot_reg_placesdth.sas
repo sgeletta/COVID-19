@@ -226,7 +226,7 @@ Axis2
 
 ;
 TITLE;
-TITLE1 "Daily Mortality Rates (per 1,000 population) by Region and CBSA";
+TITLE1 "Daily Cumulative Mortality Rates (per 1,000 population) by Region and CBSA";
 FOOTNOTE;
 PROC GPLOT DATA = WORK.CBSARegDeathRates
  NOCACHE ;
