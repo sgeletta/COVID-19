@@ -2687,7 +2687,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 90015,Unassigned,Hawaii,US,2020-05-23 02:32:42,,,0,0,0,0,"Unassigned, Hawaii, US"
 90016,Unassigned,Idaho,US,2020-05-23 02:32:42,,,0,0,0,0,"Unassigned, Idaho, US"
 90017,Unassigned,Illinois,US,2020-05-23 02:32:42,,,106,0,0,106,"Unassigned, Illinois, US"
-90018,Unassigned,Indiana,US,2020-05-23 02:32:42,,,0,150,0,-150,"Unassigned, Indiana, US"
+90018,Unassigned,Indiana,US,2020-05-23 02:32:42,,,0,144,0,-150,"Unassigned, Indiana, US"
 90019,Unassigned,Iowa,US,2020-05-23 02:32:42,,,6,0,0,6,"Unassigned, Iowa, US"
 90020,Unassigned,Kansas,US,2020-05-23 02:32:42,,,0,0,0,0,"Unassigned, Kansas, US"
 90021,Unassigned,Kentucky,US,2020-05-23 02:32:42,,,28,0,0,28,"Unassigned, Kentucky, US"
@@ -3320,7 +3320,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Liberia,2020-05-23 02:32:42,6.4280550000000005,-9.429499,249,24,136,89,Liberia
 ,,,Libya,2020-05-23 02:32:42,26.3351,17.228331,72,3,38,31,Libya
 ,,,Liechtenstein,2020-05-23 02:32:42,47.14,9.55,82,1,55,26,Liechtenstein
-,,,Lithuania,2020-05-23 02:32:42,55.1694,23.8813,1604,61,1111,432,Lithuania
+,,,Lithuania,2020-05-23 02:32:42,55.1694,23.8813,1598,46,1140,432,Lithuania
 ,,,Luxembourg,2020-05-23 02:32:42,49.8153,6.1296,3981,109,3748,124,Luxembourg
 ,,,MS Zaandam,2020-05-23 02:32:42,,,9,2,0,7,MS Zaandam
 ,,,Madagascar,2020-05-23 02:32:42,-18.766947,46.869107,448,2,135,311,Madagascar

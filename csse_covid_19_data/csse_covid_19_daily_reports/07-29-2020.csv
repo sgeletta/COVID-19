@@ -2906,7 +2906,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 90015,Unassigned,Hawaii,US,2020-07-30 04:35:05,,,0,0,0,0,"Unassigned, Hawaii, US",,
 90016,Unassigned,Idaho,US,2020-07-30 04:35:05,,,0,0,0,0,"Unassigned, Idaho, US",,
 90017,Unassigned,Illinois,US,2020-07-30 04:35:05,,,1297,192,0,1105,"Unassigned, Illinois, US",,14.803392444101773
-90018,Unassigned,Indiana,US,2020-07-30 04:35:05,,,0,199,0,-199,"Unassigned, Indiana, US",,
+90018,Unassigned,Indiana,US,2020-07-30 04:35:05,,,0,133,0,-199,"Unassigned, Indiana, US",,
 90019,Unassigned,Iowa,US,2020-07-30 04:35:05,,,1,0,0,1,"Unassigned, Iowa, US",,0.0
 90020,Unassigned,Kansas,US,2020-07-30 04:35:05,,,0,1,0,,"Unassigned, Kansas, US",,
 90021,Unassigned,Kentucky,US,2020-07-30 04:35:05,,,0,0,0,0,"Unassigned, Kentucky, US",,
@@ -3853,7 +3853,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Liberia,2020-07-30 04:35:05,6.4280550000000005,-9.429499,1179,72,664,443,Liberia,23.311097169708546,6.106870229007634
 ,,,Libya,2020-07-30 04:35:05,26.3351,17.228331,3222,76,596,2550,Libya,46.89077897634024,2.3587833643699567
 ,,,Liechtenstein,2020-07-30 04:35:05,47.14,9.55,88,1,85,2,Liechtenstein,230.74704355350448,1.1363636363636365
-,,,Lithuania,2020-07-30 04:35:05,55.1694,23.8813,2043,80,1643,320,Lithuania,75.04708350429841,3.9158100832109644
+,,,Lithuania,2020-07-30 04:35:05,55.1694,23.8813,2037,63,1672,320,Lithuania,75.04708350429841,3.9158100832109644
 ,,,Luxembourg,2020-07-30 04:35:05,49.8153,6.1296,6533,114,4959,1460,Luxembourg,1043.6502357917875,1.7449869891320986
 ,,,MS Zaandam,2020-07-30 04:35:05,,,9,2,0,7,MS Zaandam,,22.22222222222222
 ,,,Madagascar,2020-07-30 04:35:05,-18.766947,46.869107,10317,99,7117,3101,Madagascar,37.25756715561822,0.959581273626054
