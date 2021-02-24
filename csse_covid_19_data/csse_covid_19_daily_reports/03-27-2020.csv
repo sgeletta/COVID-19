@@ -3238,6 +3238,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,Recovered,US,2020-03-27 22:14:55,0.0,0.0,0,0,869,0,"Recovered, US"
 ,,Reunion,France,2020-03-27 23:23:03,-21.1151,55.5364,145,0,1,144,"Reunion, France"
 ,,Saint Barthelemy,France,2020-03-27 23:23:03,17.9,-62.8333,5,0,0,5,"Saint Barthelemy, France"
+,,"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,2020-03-27 23:23:03,-7.9467,-14.3559,0,0,0,0,"Saint Helena, Ascension and Tristan da Cunha, United Kingdom"
 ,,Saskatchewan,Canada,2020-03-27 23:27:32,52.9399,-106.4509,95,0,0,0,"Saskatchewan, Canada"
 ,,Shaanxi,China,2020-03-26 02:14:25,35.1917,108.8701,253,3,242,8,"Shaanxi, China"
 ,,Shandong,China,2020-03-27 07:48:45,36.3427,118.1498,772,7,752,13,"Shandong, China"
@@ -3352,7 +3353,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Liberia,2020-03-27 23:23:03,6.4280550000000005,-9.429499,3,0,0,3,Liberia
 ,,,Libya,2020-03-27 23:23:03,26.3351,17.228331,1,0,0,1,Libya
 ,,,Liechtenstein,2020-03-27 23:23:03,47.14,9.55,56,0,0,56,Liechtenstein
-,,,Lithuania,2020-03-27 23:23:03,55.1694,23.8813,292,4,7,352,Lithuania
+,,,Lithuania,2020-03-27 23:23:03,55.1694,23.8813,292,4,0,352,Lithuania
 ,,,Luxembourg,2020-03-27 23:23:03,49.8153,6.1296,1605,15,40,1550,Luxembourg
 ,,,Madagascar,2020-03-27 23:23:03,-18.766947000000002,46.869107,26,0,0,26,Madagascar
 ,,,Malaysia,2020-03-27 23:23:03,4.210483999999999,101.97576600000001,2161,26,259,1876,Malaysia
